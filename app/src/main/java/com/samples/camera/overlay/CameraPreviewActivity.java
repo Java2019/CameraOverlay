@@ -35,6 +35,7 @@ public class CameraPreviewActivity extends AppCompatActivity
                 LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT);
         // Добавляем оверлей на поверхность Activity
         addContentView(overlay, params);
+
         bStart = (ImageButton)overlay.findViewById(R.id.bStart);
         bStop = (ImageButton)overlay.findViewById(R.id.bStop);
         bStart.setOnClickListener(this);
